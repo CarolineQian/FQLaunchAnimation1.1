@@ -29,7 +29,7 @@
     if (self)
     {
         _advertView = [[UIImageView alloc] initWithFrame:self.bounds];
-        _advertView.backgroundColor = [UIColor blueColor];
+        _advertView.backgroundColor = [UIColor orangeColor];
         [self addSubview:_advertView];
         
         _timerButton = [[FQActivateButton alloc] initWithFrame:CGRectMake(ScreenWidth - 15 - 35, 20, 35, 35)];
